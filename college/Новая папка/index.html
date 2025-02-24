@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Колледж</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Заголовок -->
+    <header class="hero">
+        <div class="overlay">
+            <h1>Добро пожаловать в наш колледж</h1>
+            <p>Качественное образование для успешного будущего</p>
+            <button class="btn" onclick="location.href='about.html'">Подробнее о нас</button>
+        </div>
+    </header>
+
+    <!-- Контент -->
+    <main class="container">
+        <section class="card">
+            <h2>📰 Новости</h2>
+            <div class="news-item">
+                <p class="news-title">День открытых дверей</p>
+                <p class="news-date">15 марта 2024</p>
+                <p>Приглашаем всех желающих познакомиться с нашим колледжем.</p>
+            </div>
+            <div class="news-item">
+                <p class="news-title">Победа в городской олимпиаде</p>
+                <p class="news-date">10 марта 2024</p>
+                <p>Наши студенты заняли первое место в городской олимпиаде по программированию.</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>📢 Объявления</h2>
+            <div class="news-item">
+                <p class="news-title">Начало весеннего семестра</p>
+                <p class="news-date">1 февраля 2024</p>
+                <p>Занятия начинаются 1 февраля. Расписание доступно в разделе "Расписание".</p>
+            </div>
+            <div class="news-item">
+                <p class="news-title">Конференция по IT</p>
+                <p class="news-date">Регистрация открыта</p>
+                <p>Регистрация на ежегодную студенческую конференцию открыта.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер с навигацией -->
+    <footer class="footer">
+        <button class="nav-btn active" data-page="home" onclick="location.href='index.html'">🏠 Главная</button>
+        <button class="nav-btn" data-page="materials" onclick="location.href='materials.html'">📖 Методички</button>
+        <button class="nav-btn" data-page="schedule" onclick="location.href='schedule.html'">🗓️ Расписание</button>
+    </footer>
+
+</body>
+</html>
